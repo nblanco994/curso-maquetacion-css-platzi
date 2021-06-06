@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
 
 :root {
-    --light-cyan: hsl(165deg 59% 55%); 
+    --light-purple: hsl(299deg 69% 62%); 
     --light-cyan-border: hsl(165deg 59% 55%);
     --black: hsl(0deg 0% 0%);
     --white: hsl(0deg 0% 100%);
