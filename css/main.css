@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
 
 :root {
-    --light-purple: hsl(299deg 69% 62%); 
-    --light-cyan-border: hsl(165deg 59% 55%);
+    --light-purple: hsl(285deg 53% 40%);
+    --light-purple-border: hsl(285deg 39% 59%);
     --black: hsl(0deg 0% 0%);
     --white: hsl(0deg 0% 100%);
     --light-gray: hsl(214deg 16% 92%);
     --light-gray-border: hsl(217deg 15% 83%);
     --footer-color-black: hsl(213deg 14% 15%);
-    --footer-color-cyan: hsl(165deg 59% 55%);
+    --footer-color-purple: hsl(285deg 53% 40%);
   }
 
 body {
@@ -46,7 +46,7 @@ header .header-icons-container {
     width: 100%;
     height: 50px;
     display: grid;
-    background-color:var(--light-cyan);
+    background-color:var(--light-purple);
 }
 
 header .header-icons-container .icons {
@@ -120,7 +120,7 @@ nav .profile-link a {
 .home-main-button {
     width: 110px;
     height: 50px;
-    background: var(--light-cyan);
+    background: var(--light-purple);
     display: grid;
     align-items: center;
 }
@@ -128,6 +128,7 @@ nav .profile-link a {
 .home-main-button a {
    font-weight: 700;
    font-size: 16px;
+   color: var(--white)
 }
 
 .blogs-main {
@@ -173,7 +174,7 @@ nav .profile-link a {
 }
 
 .blogs-button {
-    border: 1px solid var(--light-cyan-border);
+    border: 1px solid var(--light-purple-border);
     padding: 10px 15px;
     font-size: 12px;
 }
@@ -191,13 +192,14 @@ nav .profile-link a {
 
 .blogs-post-container .post-container img {
     width: 100%;
+    
 }
 
 footer {
     width: 100%;
     height: 80px;
     background-color: var(--footer-color-black);
-    border-top: 35px solid var(--footer-color-cyan);
+    border-top: 35px solid var(--footer-color-purple);
     text-align: center;
 }
 
