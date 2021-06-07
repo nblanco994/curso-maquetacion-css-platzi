@@ -2,6 +2,7 @@
 
 :root {
     --light-purple: hsl(285deg 53% 40%);
+    --light-cyan: hsl(165deg 58% 55%); 
     --light-purple-border: hsl(285deg 39% 59%);
     --black: hsl(0deg 0% 0%);
     --white: hsl(0deg 0% 100%);
@@ -88,7 +89,7 @@ nav .profile-link {
 
 nav .profile-link a {
     color: var(--black);
-    border-bottom: 1px solid var(--black);
+    border-bottom: 1px solid hsl(165deg 58% 55%);
 }
 
 .home-main {
@@ -128,7 +129,7 @@ nav .profile-link a {
 .home-main-button a {
    font-weight: 700;
    font-size: 16px;
-   color: var(--white)
+   color: var(  --light-cyan);
 }
 
 .blogs-main {
